@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= 'Fishing brands in Finland'
+  ul
+    each brand in brands
+      li= brand.number + ': ' + brand.name
+
